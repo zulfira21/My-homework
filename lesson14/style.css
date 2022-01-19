@@ -1,0 +1,56 @@
+/* Базовые настройки страницы начало */
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+/* Базовые настройки страницы конец */
+
+/* Универсальные стили начало */
+.container{
+    width: 1200px;
+    margin: 0 ;
+}
+/* Универсальные стили начало */
+
+
+/* lesson 14 */
+
+/* header start*/
+.first_block{
+    background-color: #f7f7f7;
+    padding: 10px 0;
+}
+.first_block .container,.third_block .container {
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin-left: 20px;
+    color: #625f79;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+.second_block{
+    height: 100px;
+    padding: 10px 0;
+}
+.second_block ul{
+    display: flex;
+    justify-content: space-around;
+}
+.third_block{
+    background-color: #f7f7f7;;
+}
+/* header end */
+

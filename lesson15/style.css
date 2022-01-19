@@ -1,0 +1,97 @@
+/* Базовые настройки страницы начало */
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+/* Базовые настройки страницы конец */
+
+/* Универсальные стили начало */
+.container{
+    width: 1200px;
+    margin: 0 ;
+}
+/* Универсальные стили начало */
+
+
+/* lesson 14 */
+
+/* header start*/
+.first_block{
+    background-color: #f7f7f7;
+    /* padding: 10px 0; */
+}
+.first_block .container,.third_block .container {
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    margin-left: 20px;
+    color: #625f79;
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+.ul_b-r li{
+    border-right:1px solid rgb(143,143,143); 
+    padding-right: 5px;
+}
+.ul_b-r li:last-child{
+    border-right: 0;
+}
+.ul_b-r i{
+    margin-right: 5px;
+    
+}
+.ul_second li i{
+    margin-right: 5px;
+   
+}
+
+/* Position */
+.msg{
+    position: absolute;
+    top: -7px;
+    right: 6px;
+    background:  #e53556;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: white;
+    font-size: 9px;
+    line-height:1.5 ;
+    border-radius: 13px;
+
+}
+.icon_msg{
+    position: relative;
+}
+.fas fa-gift :hover{
+    color: red;
+} 
+
+
+
+
+
+.second_block{
+    height: 90px;
+    padding: 10px 0;
+   
+
+}
+.second_block ul{
+    display: flex;
+    justify-content: space-around;
+}
+.third_block{
+    background-color: #f7f7f7;;
+
+    
+}
